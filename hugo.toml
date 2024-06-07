@@ -1,0 +1,4 @@
+baseURL = 'https://zhaocheney.github.io/'
+languageCode = 'en-us'
+title = 'zhaocheney 的 github.io 博客'
+theme = 'ananke'

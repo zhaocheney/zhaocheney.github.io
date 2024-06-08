@@ -48,3 +48,6 @@ build/
 **/logs/
 **/*.log
 
+### hugo ###
+public/**
+resources/**

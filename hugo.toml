@@ -1,4 +1,19 @@
 baseURL = "https://zhaocheney.github.io/"
 languageCode = "zh-hans"
 title = "Eric's Daddy"
-theme = "ananke"
+theme = "cleanwhite"
+# 博文分页
+paginate = 20
+
+# 主题 cleanwhite 配置参数
+[params]
+  ## 顶部导航栏扩展菜单
+  [[params.addtional_menus]]
+    title =  "ARCHIVE"
+    href =  "/archive"
+    [[params.addtional_menus]]
+    title =  "NOTES"
+    href =  "/notes"
+    [[params.addtional_menus]]
+    title =  "ABOUT"
+    href =  "/about"

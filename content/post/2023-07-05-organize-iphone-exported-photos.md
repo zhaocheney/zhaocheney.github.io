@@ -43,6 +43,11 @@ echo "删除空文件夹"
 find "$target_dir" -type d -empty -print0 | xargs -t -0 ls -alh
 # 删除
 find "$target_dir" -type d -empty | xargs rm -rf
+
+# 检查来源路径、目标路径文件数量是否一致
+echo "检查文件数量"
+find "$source_dir" -type f | wc -l; 
+find "$target_dir" -type f | wc -l;
 ```
 
 ## 删除隐藏文件
@@ -57,11 +62,6 @@ find "$target_dir" -type f -name ".*" -print0 | xargs -t -0 rm
 ## 检查结果
 
 ```shell
-# 检查来源路径、目标路径文件数量是否一致
-echo "检查文件数量"
-find "$source_dir" -type f | wc -l; 
-find "$target_dir" -type f | wc -l;
-
 # 若检查结果不一致, 通过该脚本输出差异内容. 注意: 由于排序, 脚本执行并不快
 echo "输出差异内容"
 find "$source_dir" -type f -exec basename {} \; | sort > file_source.txt

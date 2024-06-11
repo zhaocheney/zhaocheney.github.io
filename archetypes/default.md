@@ -8,17 +8,18 @@ date: '{{ .Date }}'
 description: 'description'
 tags: [ 'tag1', 'tag2' ]
 url: ''
-# theme 扩展属性
+# theme 扩展配置
 subtitle: 'subtitle'
 categories: [ 'category1', 'category2' ]
 image: 'img'
 ---
 
-## 介绍
+## 前言
 
+## 正文
 
 ## 总结
 
-
 ## 参考链接
+
 - [Hugo](https://gohugo.io)

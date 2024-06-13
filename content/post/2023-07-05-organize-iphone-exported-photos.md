@@ -1,4 +1,5 @@
 ---
+# hugo 配置
 draft: true
 layout: post
 title: 'macOS 整理 iPhone 导出照片'
@@ -6,9 +7,14 @@ author: 'zhaocheney'
 date: '2023-07-05T15:02:17+08:00'
 description: 'description'
 tags: [ 'macOS', '照片' ]
+url: '/2023/07/05/organize-iphone-exported-photos'
+# theme 扩展配置
+subtitle: ''
 categories: [ 'NOTES' ]
-#url: ''
+image: '/images'
 ---
+
+> macOS Ventura
 
 ## 介绍
 

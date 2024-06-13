@@ -11,7 +11,7 @@ url: ''
 # theme 扩展配置
 subtitle: 'subtitle'
 categories: [ 'category1', 'category2' ]
-image: 'img'
+image: 'images'
 ---
 
 ## 前言

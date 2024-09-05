@@ -1,6 +1,5 @@
----
-title: "Posts Archive"
-layout: archive
-type: archive
-description: Archive of historical posts.
----
++++
+layout = 'archive'
+title = '文章归档'
+description = '文章归档'
++++

@@ -1,90 +1,96 @@
-baseURL = "https://zhaocheney.github.io/"
-languageCode = "zh-hans"
-title = "Chen's Blog"
-theme = "cleanwhite"
+# hugo 基本配置
+baseURL = 'https://zhaocheney.github.io/'
+languageCode = 'zh-cn'
+title = 'zhaocheney'
+theme = 'cleanwhite'
 
-# POST 分页
-paginate = 20
+# 文章分页配置
+paginate = 1
 
-# Markdown 渲染配置
+# markdown 渲染配置
 [markup]
-## Markdown 转 HTML 渲染器, 默认 goldmark
-defaultMarkdownHandler = "goldmark"
-## 目录
+## markdown 转 HTML 渲染器, 默认 goldmark
+defaultMarkdownHandler = 'goldmark'
+## 文章目录配置
 [markup.tableOfContents]
 ### 目录等级显示范围
 startLevel = 1
 endLevel = 2
-## 代码高亮
+## 文章中代码高亮配置
 [markup.highlight]
-### 高亮主题
-style = "vs"
-### 行号-是否显示
+### 代码主题
+style = 'vs'
+### 是否显示行号
 lineNos = true
-### 行号-是否使用 table 形式显示
+### 是否使用 table 形式显示行号
 lineNumbersInTable = false
 
-# 主题 cleanwhite 配置
+# hugo-theme-cleanwhite 配置
 [params]
 ## 顶部图片
-header_image = "/images"
+header_image = '/img/header-image.jpg'
 ## 副标题, 标签栏显示为 {title} | {SEOTitle}
-SEOTitle = "GitHub Pages"
+SEOTitle = 'zhaocheney'
+## slogan
+slogan = 'This Is Slogan'
 ##
-keyword = "博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice"
-##
-slogan = "this is slogan"
-## 底部是否显示主题来源信息
-upstreamAttribution = false
+keyword = '博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice'
 
 ## 404 页面配置
-title_404 = "哎呀！页面走丢了！～"
-image_404 = "/images"
-omit_categories = false
+title_404 = '哎呀！页面走丢了！～'
+image_404 = '/images'
 
-## 关于, 头像&简介
+## 顶部导航是否显示 categories 菜单
+omit_categories = false
+## 底部信息是否显示主题来源
+upstreamAttribution = false
+
+## 侧边栏是否显示关于信息
 about_me = true
-sidebar_avatar = "/images/avatar.jpg"
-sidebar_about_description = "Software Developer"
+## 关于信息头像
+sidebar_avatar = '/img/avatar.jpg'
+## 关于信息描述
+sidebar_about_description = 'Software Developer'
 
 ## Tags 标签
 featured_tags = true
 ## 显示条件，当 tag 在 POST 计数 > featured_condition_size 时，显示该 tag
 featured_condition_size = 0
 
-## 收藏
-bookmarks = true
 ## 好友
 friends = true
 ## 打赏
 reward = true
-reward_guide = "如果这篇文章对你有用，请随意打赏～"
+reward_guide = '如果这篇文章对你有用，请随意打赏～'
+
+## 侧边栏收藏
+bookmarks = true
 
 # 收藏列表
 [[params.bookmark_link]]
-title = "Google"
-href = "https://www.google.com"
+title = 'Google'
+href = 'https://www.google.com'
 [[params.bookmark_link]]
-title = "Baidu"
-href = "https://www.baidu.com"
+title = 'Baidu'
+href = 'https://www.baidu.com'
 # 好友列表
 [[params.friend_link]]
-title = "Martin Fowler"
-href = "https://martinfowler.com"
+title = 'Martin Fowler'
+href = 'https://martinfowler.com'
 [[params.friend_link]]
-title = "Martin Fowler"
-href = "https://martinfowler.com"
+title = 'Martin Fowler'
+href = 'https://martinfowler.com'
 
 ## 社交属性
 [params.social]
-email = "youremail@gmail.com"
-wechat = "/images/avatar.jpg"
-github = "https://github.com/zhaocheney"
+email = 'youremail@gmail.com'
+wechat = '/img/avatar.jpg'
+github = 'https://github.com/zhaocheney'
 
 ## 导航栏扩展菜单
 [[params.addtional_menus]]
-title = "ARCHIVE"
-href = "/archive"
+title = '归档'
+href = '/archive'
 [[params.addtional_menus]]
-title = "ABOUT"
-href = "/about"
+title = '关于'
+href = '/about'

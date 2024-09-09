@@ -5,6 +5,7 @@ layout = 'post'
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 author = 'zhaocheney'
 date = '{{ .Date }}'
+lastMod = '{{ .Date }}'
 description = 'description'
 tags = ['tag1', 'tag12']
 url = ''

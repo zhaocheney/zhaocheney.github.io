@@ -16,7 +16,7 @@ defaultMarkdownHandler = 'goldmark'
 ### 目录等级显示范围
 startLevel = 1
 endLevel = 2
-## 文章中代码高亮配置
+## 代码高亮配置
 [markup.highlight]
 ### 代码主题
 style = 'vs'
@@ -31,66 +31,83 @@ lineNumbersInTable = false
 header_image = '/img/header-image.jpg'
 ## 副标题, 标签栏显示为 {title} | {SEOTitle}
 SEOTitle = 'zhaocheney'
-## slogan
+## 标语
 slogan = 'This Is Slogan'
-##
-keyword = '博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice'
+## 搜索引擎检索关键字
+keyword = '博客, 个人网站, 互联网, Java, Microservice, 微服务'
 
 ## 404 页面配置
 title_404 = '哎呀！页面走丢了！～'
 image_404 = '/images'
 
-## 顶部导航是否显示 categories 菜单
+## 文章打赏配置
+### 是否显示打赏
+reward = true
+### 打赏文字
+reward_guide = '如果这篇文章对你有用, 请随意打赏'
+
+## 顶部导航栏配置
+### 是否隐藏分类菜单
 omit_categories = false
-## 底部信息是否显示主题来源
+
+## 底部信息配置
+### 是否显示主题来源
 upstreamAttribution = false
 
-## 侧边栏是否显示关于信息
+## 侧边栏配置
+### 是否显示关于信息
 about_me = true
-## 关于信息头像
+### 关于信息头像
 sidebar_avatar = '/img/avatar.jpg'
-## 关于信息描述
+### 关于信息描述
 sidebar_about_description = 'Software Developer'
-
-## Tags 标签
+### 是否显示标签
 featured_tags = true
-## 显示条件，当 tag 在 POST 计数 > featured_condition_size 时，显示该 tag
+### 标签显示条件: 当 tag 在 POST 计数 > featured_condition_size 时, 显示该 tag
 featured_condition_size = 0
-
-## 好友
+### 是否显示好友
 friends = true
-## 打赏
-reward = true
-reward_guide = '如果这篇文章对你有用，请随意打赏～'
-
-## 侧边栏收藏
+### 是否显示收藏
 bookmarks = true
 
-# 收藏列表
-[[params.bookmark_link]]
-title = 'Google'
-href = 'https://www.google.com'
-[[params.bookmark_link]]
-title = 'Baidu'
-href = 'https://www.baidu.com'
-# 好友列表
-[[params.friend_link]]
-title = 'Martin Fowler'
-href = 'https://martinfowler.com'
-[[params.friend_link]]
-title = 'Martin Fowler'
-href = 'https://martinfowler.com'
-
-## 社交属性
-[params.social]
-email = 'youremail@gmail.com'
-wechat = '/img/avatar.jpg'
-github = 'https://github.com/zhaocheney'
-
-## 导航栏扩展菜单
+## 顶部导航栏-扩展菜单
 [[params.addtional_menus]]
 title = '归档'
 href = '/archive'
 [[params.addtional_menus]]
 title = '关于'
 href = '/about'
+
+## 侧边栏-社交属性
+[params.social]
+email = 'zhaoch@126.com'
+wechat = '/img/avatar.jpg'
+github = 'https://github.com/zhaocheney'
+
+# 侧边栏-收藏列表
+[[params.bookmark_link]]
+title = 'Google'
+href = 'https://www.google.com'
+[[params.bookmark_link]]
+title = 'InfoQ'
+href = 'http://www.infoq.com/cn/'
+
+# 侧边栏-好友列表
+[[params.friend_link]]
+title = 'Martin Fowler'
+href = 'https://martinfowler.com'
+[[params.friend_link]]
+title = 'Martin Fowler'
+href = 'https://martinfowler.com'
+
+### 侧边栏-出版物列表
+#[params.publications]
+#title = '出版物'
+#[[params.publications.items]]
+#title = '出版物1'
+#image = '/img/avatar.jpg'
+#href = '/publications1'
+#[[params.publications.items]]
+#title = '出版物2'
+#image = '/img/avatar.jpg'
+#href = '/publications2'

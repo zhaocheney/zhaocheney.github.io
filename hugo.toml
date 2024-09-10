@@ -65,12 +65,18 @@ sidebar_about_description = 'Software Developer'
 featured_tags = true
 ### 标签显示条件: 当 tag 在 POST 计数 > featured_condition_size 时, 显示该 tag
 featured_condition_size = 0
-### 是否显示好友
-friends = true
 ### 是否显示收藏
 bookmarks = true
+### 是否显示好友
+friends = true
 
 ## 顶部导航栏-扩展菜单
+#[[params.addtional_menus]]
+#title = '技术'
+#href = '/categories/tech'
+#[[params.addtional_menus]]
+#title = '笔记'
+#href = '/categories/notes'
 [[params.addtional_menus]]
 title = '归档'
 href = '/archive'

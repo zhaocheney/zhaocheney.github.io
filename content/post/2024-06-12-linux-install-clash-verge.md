@@ -1,18 +1,22 @@
----
++++
 # hugo 配置
-draft: true
-layout: post
-title: 'Linux 安装 Clash-Verge 代理'
-author: 'zhaocheney'
-date: '2024-06-12T10:37:35+08:00'
-description: 'description'
-tags: [ 'Linux', 'Proxy' ]
-url: '/2024/06/12/linux-install-clash-verge'
-# theme 扩展配置
-subtitle: ''
-categories: [ 'NOTES' ]
-image: '/images'
----
+draft = false
+layout = 'post'
+title = 'Linux 安装 Clash-Verge 代理'
+author = 'zhaocheney'
+date = '2024-06-12T10:37:35+08:00'
+lastMod = '2024-06-12T10:37:35+08:00'
+description = 'Linux 安装 Clash-Verge 代理, 实现访问 GitHub'
+tags = ['Linux', 'Proxy']
+url = '/2024/06/12/linux-install-clash-verge'
+# hugo-theme 配置
+## 文章子标题
+subtitle = ''
+## 文章顶部背景图片
+image = 'https://images.unsplash.com/photo-1542378151504-0361b8ec8f93'
+## 文章所属分类
+categories = ['NOTES']
++++
 
 > Ubuntu 22.04 LTS
 

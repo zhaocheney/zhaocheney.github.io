@@ -1,22 +1,26 @@
----
++++
 # hugo 配置
-draft: true
-layout: post
-title: '使用 Hugo + GitHub Pages 搭建博客'
-author: 'zhaocheney'
-date: '2024-06-08T00:01:40+08:00'
-description: '使用 Markdown 编写内容，Hugo 生成静态内容，部署至 GitHub Pages，完成搭建自己的博客'
-tags: [ 'Hugo', 'Blog' ]
-url: '/2024/06/08/hugo-with-github-pages'
-# theme 扩展配置
-subtitle: ''
-categories: [ 'TECH' ]
-image: '/images'
----
+draft = false
+layout = 'post'
+title = '使用 Hugo + GitHub Pages 搭建博客'
+author = 'zhaocheney'
+date = '2024-06-08T00:01:40+08:00'
+lastMod = '2024-06-08T00:01:40+08:00'
+description = '使用 Markdown 编写内容，Hugo 生成静态内容，部署至 GitHub Pages，完成搭建自己的博客'
+tags = ['Hugo', 'Blog']
+url = '/2024/06/08/hugo-with-github-pages'
+# hugo-theme 配置
+## 文章子标题
+subtitle = ''
+## 文章顶部背景图片
+image = 'https://images.unsplash.com/photo-1542397284385-6010376c5337'
+## 文章所属分类
+categories = ['TECH']
++++
 
 > macOS Ventura
 >
-> Hugo v0.127.0+extended
+> hugo v0.133.1+extended
 
 ## 前言
 

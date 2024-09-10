@@ -1,18 +1,22 @@
----
++++
 # hugo 配置
-draft: true
-layout: post
-title: 'macOS 整理 iPhone 导出照片'
-author: 'zhaocheney'
-date: '2023-07-05T15:02:17+08:00'
-description: 'description'
-tags: [ 'macOS', '照片' ]
-url: '/2023/07/05/organize-iphone-exported-photos'
-# theme 扩展配置
-subtitle: ''
-categories: [ 'NOTES' ]
-image: '/images'
----
+draft = false
+layout = 'post'
+title = 'macOS 整理 iPhone 导出照片'
+author = 'zhaocheney'
+date = '2023-07-05T15:02:17+08:00'
+lastMod = '2023-07-05T15:02:17+08:00'
+description = '通过脚本在 macOS 上实现整理 iPhone 导出的照片'
+tags = ['macOS']
+url = '/2023/07/05/organize-iphone-exported-photos'
+# hugo-theme 配置
+## 文章子标题
+subtitle = ''
+## 文章顶部背景图片
+image = 'https://images.unsplash.com/photo-1485952182379-e7c7f5f3ae79'
+## 文章所属分类
+categories = ['NOTES']
++++
 
 > macOS Ventura
 

@@ -4,11 +4,11 @@ draft = false
 layout = 'post'
 title = 'macOS 整理 iPhone 导出照片'
 author = 'zhaocheney'
-date = '2023-07-05T15:02:17+08:00'
-lastMod = '2023-07-05T15:02:17+08:00'
+date = '2024-07-05T15:02:17+08:00'
+lastMod = '2024-07-05T15:02:17+08:00'
 description = '通过脚本在 macOS 上实现整理 iPhone 导出的照片'
 tags = ['macOS']
-url = '/2023/07/05/organize-iphone-exported-photos'
+url = '/2024/07/05/organize-iphone-exported-photos'
 # hugo-theme 配置
 ## 文章子标题
 subtitle = ''

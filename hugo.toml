@@ -5,7 +5,7 @@ title = 'zhaocheney'
 theme = 'cleanwhite'
 
 # 文章分页配置
-paginate = 1
+paginate = 20
 
 # markdown 渲染配置
 [markup]

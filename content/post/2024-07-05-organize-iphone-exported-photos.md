@@ -15,7 +15,7 @@ subtitle = ''
 ## 文章顶部背景图片
 image = 'https://images.unsplash.com/photo-1485952182379-e7c7f5f3ae79'
 ## 文章所属分类
-categories = ['NOTES']
+categories = ['NOTE']
 +++
 
 > macOS Ventura

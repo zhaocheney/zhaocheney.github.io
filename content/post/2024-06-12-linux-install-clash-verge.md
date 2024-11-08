@@ -15,7 +15,7 @@ subtitle = ''
 ## 文章顶部背景图片
 image = 'https://images.unsplash.com/photo-1542378151504-0361b8ec8f93'
 ## 文章所属分类
-categories = ['NOTES']
+categories = ['NOTE']
 +++
 
 > Ubuntu 22.04 LTS

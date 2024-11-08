@@ -4,10 +4,10 @@ draft = false
 layout = 'post'
 title = 'macOS 隐私工具 tccutil'
 author = 'zhaocheney'
-date = '2024-11-08T15:04:33+08:00'
-lastMod = '2024-11-08T15:04:33+08:00'
-description = '使用 tccutil 命令, 重置或清理 macos 隐私设置'
-tags = ['macos']
+date = '2023-06-09T15:04:33+08:00'
+lastMod = '2023-06-09T15:04:33+08:00'
+description = '使用 tccutil 命令, 重置或清理 macOS 隐私设置'
+tags = ['macOS']
 url = ''
 # hugo-theme-cleanwhite 配置
 ## 文章子标题
@@ -15,7 +15,7 @@ subtitle = ''
 ## 文章顶部背景图片
 image = 'images/header-image.jpg'
 ## 文章所属分类
-categories = ['macos']
+categories = ['NOTE']
 +++
 
 ## tccutil

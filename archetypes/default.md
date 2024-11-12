@@ -6,16 +6,16 @@ title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 author = 'zhaocheney'
 date = '{{ .Date }}'
 lastMod = '{{ .Date }}'
-description = 'description'
-tags = ['tag1', 'tag12']
+description = '{{ replace .File.ContentBaseName "-" " " | title }}'
+tags = ['macOS']
 url = ''
 # hugo-theme-cleanwhite 配置
 ## 文章子标题
-subtitle = 'subtitle'
+subtitle = ''
 ## 文章顶部背景图片
-image = 'images/header-image.jpg'
+image = 'img/header-image.jpg'
 ## 文章所属分类
-categories = ['category1', 'category2']
+categories = ['NOTE']
 +++
 
 ## 前言

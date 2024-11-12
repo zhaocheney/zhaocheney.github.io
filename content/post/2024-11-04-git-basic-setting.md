@@ -13,7 +13,7 @@ url = ''
 ## 文章子标题
 subtitle = ''
 ## 文章顶部背景图片
-image = 'images/header-image.jpg'
+image = 'img/header-image.jpg'
 ## 文章所属分类
 categories = ['NOTE']
 +++

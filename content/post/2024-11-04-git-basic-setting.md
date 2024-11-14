@@ -1,6 +1,6 @@
 +++
 # hugo 配置
-draft = true
+draft = false
 layout = 'post'
 title = 'Git 常见配置'
 author = 'zhaocheney'
@@ -48,13 +48,13 @@ git config --global log.date format:'%Y-%m-%d %H:%M:%S'
 
 [//]: # (单行命令)
 
-[//]: # (find . -type d -name '.git' -execdir bash -c 'echo "Project: $&#40;pwd&#41;"; git log  --pretty=format:"%C&#40;yellow&#41;%cd, %h, %an&#40;%ae&#41; : %s %Creset" --author="zhaochen" --since="2024-10-01" --until="2024-10-31"' \;)
+[//]: # (find . -type d -name '.git' -execdir bash -c 'echo "Project: $&#40;pwd&#41;"; git log  --pretty=format:"%C&#40;yellow&#41;%cd, %h, %an&#40;%ae&#41; : %s %Creset" --author="your_name" --since="2024-10-01" --until="2024-10-31"' \;)
 
 ```shell
 find . -type d -name '.git' \
     -execdir bash -c 'echo "Project: $(pwd)"; \
                       git log  --pretty=format:"%C(yellow)%cd, %h, %an(%ae) : %s %C(reset)" \
-                      --author="zhaochen" \
+                      --author="your_name" \
                       --since="2024-10-01" \
                       --until="2024-10-31" ' \;
 ```

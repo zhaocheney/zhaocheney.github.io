@@ -43,7 +43,7 @@ image_404 = '/images'
 
 ## 文章打赏配置
 ### 是否显示打赏
-reward = true
+reward = false
 ### 打赏文字
 reward_guide = '如果这篇文章对你有用, 请随意打赏'
 

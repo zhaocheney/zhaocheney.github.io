@@ -72,13 +72,28 @@ vi /opt/ja-netfilter/config/url.conf
 PREFIX,https://account.jetbrains.com/lservice/rpc/validateKey.action
 ```
 
-#### 2.3 生成 power.conf & activation code
-
-> power.conf 和 activation code 是配套的
+#### 2.3 生成 ca.crt, ca.key, power.conf
 
 ```shell
 mv power.conf /opt/ja-netfilter/config/power.conf
 ```
+
+注意: `power.conf` 和 `ca.crt`, `ca.key` 是配套的
+
+**power.conf 内容简述**
+
+`EQUAL,x,y,z->fakeResult` 就是 `x.modpow(y,z)=fakeResult`, 匹配 x,y,z 三个参数, 并替换模幂运算结果为 fakeResult;
+
+- x: 证书的签名密文;
+- y: 指数;
+- z: JetBrains 内置 root 证书的公钥的模;
+- fakeResult: 证书签名 (sh256 摘要后的明文) ASN.1 格式;
+
+JetBrains 的验证主要就是证书的验签
+
+> 原理此处不做过多解释, 参考网上大神文章
+
+#### 2.4 生成 activation code
 
 ### 3. 启动 IntelliJIdea
 
